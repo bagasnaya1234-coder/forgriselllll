@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>For My Dearest ♡</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="night-sky">
+    <div class="nebula nebula-a"></div>
+    <div class="nebula nebula-b"></div>
+    <div class="nebula nebula-c"></div>
+    <div class="starfield"></div>
+    <div class="moon"></div>
+    <div class="ornament ornament-left">❦</div>
+    <div class="ornament ornament-right">❦</div>
+    <div class="bottom-vines">❧　　　　　❧</div>
+</div>
+
+<div id="particles"></div>
+
+<audio id="music" loop>
+    <source src="music/romantic.mp3" type="audio/mpeg">
+</audio>
+
+<button id="musicBtn" class="music-toggle">♫ MUSIC</button>
+
+<main>
+
+<!-- SLIDE 1: AMPLOP -->
+<section class="slide active" id="slide1">
+    <div class="frame-card envelope-card">
+        <div class="corner corner-tl">✧</div>
+        <div class="corner corner-tr">✧</div>
+        <div class="corner corner-bl">✧</div>
+        <div class="corner corner-br">✧</div>
+
+        <p class="eyebrow">A PRIVATE LITTLE SURPRISE</p>
+
+        <div class="envelope-stage">
+            <div class="envelope">
+                <div class="env-back"></div>
+                <div class="letter-paper">
+                    <span>For my love</span>
+                    <b>♡</b>
+                    <small>open me</small>
+                </div>
+                <div class="env-front"></div>
+                <div class="env-flap"></div>
+                <div class="wax-seal">♡</div>
+            </div>
+
+            <span class="orbit orbit-1">✦</span>
+            <span class="orbit orbit-2">♡</span>
+            <span class="orbit orbit-3">✧</span>
+        </div>
+
+        <h1 class="opening-title">
+            A little note
+            <em>for you</em>
+        </h1>
+
+        <p class="soft-copy">
+            Ada sesuatu yang sudah lama ingin aku sampaikan dari hati...
+        </p>
+
+        <button class="romantic-button" id="openBtn">
+            Buka surat kecil ini ♡
+        </button>
+
+        <div class="flourish">— ✧ ♡ ✧ —</div>
+    </div>
+</section>
+
+<!-- SLIDE 2: UCAPAN -->
+<section class="slide" id="slide2">
+    <div class="frame-card birthday-card">
+        <div class="corner corner-tl">✧</div>
+        <div class="corner corner-tr">✧</div>
+        <div class="corner corner-bl">✧</div>
+        <div class="corner corner-br">✧</div>
+
+        <p class="eyebrow">THE WORLD BECAME MORE BEAUTIFUL</p>
+
+        <div class="flower-bouquet">
+            <div class="flower flower-one">
+                <i></i><i></i><i></i><i></i><i></i><i></i><b>♡</b>
+            </div>
+
+            <div class="flower flower-two">
+                <i></i><i></i><i></i><i></i><i></i><i></i><b>✧</b>
+            </div>
+
+            <div class="flower flower-three">
+                <i></i><i></i><i></i><i></i><i></i><i></i><b>♡</b>
+            </div>
+
+            <span class="leaf leaf-one">❧</span>
+            <span class="leaf leaf-two">❧</span>
+        </div>
+
+        <div class="tiny-ornament">✦ ❀ ♡ ❀ ✦</div>
+
+        <h1 class="birthday-heading">
+            Happy Birthday
+            <em>Grisel</em>
+        </h1>
+
+        <div class="gold-divider">♡</div>
+
+        <p class="body-copy">
+            Hari ini adalah hari yang begitu istimewa, karena seseorang
+            yang sangat berarti bagiku telah lahir ke dunia.
+        </p>
+
+        <p class="body-copy">
+            Semoga setiap langkahmu dipenuhi kebahagiaan, cinta,
+            dan hal-hal indah yang selalu kamu impikan.
+        </p>
+
+        <button class="romantic-button" id="letterBtn">
+            Ada surat dari hatiku ♡
+        </button>
+    </div>
+</section>
+
+<!-- SLIDE 3: SURAT -->
+<section class="slide" id="slide3">
+    <div class="frame-card letter-card">
+        <div class="corner corner-tl">✧</div>
+        <div class="corner corner-tr">✧</div>
+        <div class="corner corner-bl">✧</div>
+        <div class="corner corner-br">✧</div>
+
+        <p class="eyebrow">A FEW WORDS, JUST FOR YOU</p>
+
+        <div class="letter-top">❦ with love ❦</div>
+
+        <h2 class="letter-heading">
+            My dearest,
+            <em>my love</em>
+        </h2>
+
+        <div id="typedMessage" class="typed-message"></div>
+
+        <div class="letter-signature">
+            Forever yours ♡
+        </div>
+
+        <button class="romantic-button" id="galleryBtn">
+            Kenangan kecil kita ♡
+        </button>
+    </div>
+</section>
+
+<!-- SLIDE 4: GALERI FOTO -->
+<section class="slide" id="slide4">
+    <div class="frame-card gallery-card">
+        <div class="corner corner-tl">✧</div>
+        <div class="corner corner-tr">✧</div>
+        <div class="corner corner-bl">✧</div>
+        <div class="corner corner-br">✧</div>
+
+        <p class="eyebrow">OUR STORY, IN LITTLE FRAMES</p>
+
+        <h1 class="gallery-heading">
+            Moments
+            <em>to treasure</em>
+        </h1>
+
+        <p class="soft-copy gallery-intro">
+            Setiap foto menyimpan cerita, setiap cerita
+            mengingatkanku pada kamu. ♡
+        </p>
+
+        <div class="photo-gallery">
+
+            <figure class="photo-card">
+                <div class="photo-frame">
+                    <img src="assets/foto1.jpg" alt="Kenangan pertama">
+                </div>
+                <figcaption>the sweetest beginning</figcaption>
+            </figure>
+
+            <figure class="photo-card">
+                <div class="photo-frame">
+                    <img src="assets/foto2.jpg" alt="Kenangan kedua">
+                </div>
+                <figcaption>your lovely smile</figcaption>
+            </figure>
+
+            <figure class="photo-card">
+                <div class="photo-frame">
+                    <img src="assets/foto3.jpg" alt="Kenangan ketiga">
+                </div>
+                <figcaption>just us, being us</figcaption>
+            </figure>
+
+            <figure class="photo-card">
+                <div class="photo-frame">
+                    <img src="assets/foto4.jpg" alt="Kenangan keempat">
+                </div>
+                <figcaption>always in my heart</figcaption>
+            </figure>
+
+        </div>
+
+        <button class="romantic-button" id="wishBtn">
+            Satu harapan lagi ♡
+        </button>
+    </div>
+</section>
+
+<!-- SLIDE 5: HARAPAN -->
+<section class="slide" id="slide5">
+    <div class="frame-card wish-card">
+        <div class="corner corner-tl">✧</div>
+        <div class="corner corner-tr">✧</div>
+        <div class="corner corner-bl">✧</div>
+        <div class="corner corner-br">✧</div>
+
+        <p class="eyebrow">CLOSE YOUR EYES & MAKE A WISH</p>
+
+        <div class="wish-art">
+            <div class="wish-heart">♡</div>
+            <span class="wish-star star-a">✦</span>
+            <span class="wish-star star-b">✧</span>
+            <span class="wish-star star-c">✦</span>
+            <div class="wish-rings"></div>
+        </div>
+
+        <h1 class="wish-heading">
+            May your dreams
+            <em>come true</em>
+        </h1>
+
+        <p class="body-copy wish-copy">
+            Pejamkan matamu, buat satu harapan,
+            dan biarkan semesta memeluk semua impianmu.
+        </p>
+
+        <button class="romantic-button" id="makeWishBtn">
+            Make a wish ♡
+        </button>
+
+        <p id="wishMessage" class="wish-message">
+            Semoga semua harapanmu menjadi nyata.
+            Aku akan selalu mendoakanmu. ♡
+        </p>
+
+        <button class="restart-button" id="restartBtn">
+            ↶ Mulai lagi dari awal
+        </button>
+
+        <button class="romantic-button" id="videoSlideBtn">
+    Watch Our Memories ♡
+</button>
+    </div>
+</section>
+
+<!-- =========================================
+     SLIDE 6 — VIDEO KENANGAN
+========================================= -->
+
+<section class="slide" id="slide6">
+    <div class="frame-card video-card">
+
+        <div class="video-decoration">♡ ✦ ♡</div>
+
+        <p class="eyebrow">OUR SPECIAL MEMORIES</p>
+
+        <h2 class="video-heading">
+            Our Beautiful <em>Moments</em>
+        </h2>
+
+        <p class="video-description">
+            Every moment with you is a memory I want to keep forever.
+        </p>
+
+        <div class="video-frame">
+            <video id="birthdayVideo" controls playsinline>
+                <source
+                    src="assets/video-kenangan.mp4"
+                    type="video/mp4"
+                >
+                Browser kamu tidak mendukung video.
+            </video>
+        </div>
+
+        <div class="video-buttons">
+            <button class="romantic-button" id="videoRestartBtn">
+                ↻ Replay Video
+            </button>
+
+            <button class="romantic-button" id="restartFromVideoBtn">
+                ♡ Back to Beginning
+            </button>
+        </div>
+
+        <div class="video-decoration bottom-decoration">
+            With all my love ♡
+        </div>
+
+    </div>
+</section>
+
+</main>
+
+<!-- POPUP FOTO -->
+<div class="photo-modal" id="photoModal">
+    <button class="modal-close" id="modalClose">×</button>
+    <div class="modal-flourish">✧ ♡ ✧</div>
+    <img id="modalImage" src="" alt="Foto kenangan">
+    <p id="modalCaption"></p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
